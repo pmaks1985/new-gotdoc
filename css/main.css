@@ -18,6 +18,10 @@
 
 body {
   font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #343a40;
 }
 
 .banner {
@@ -25,6 +29,10 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 45px;
+}
+
+.bann_head {
+  left: 33%;
 }
 
 .bann_text {
@@ -44,7 +52,7 @@ body {
 }
 
 .nav-link_menu {
-  font-family: MyriadPro;
+  font-family: MyriadPro-Regular;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
@@ -53,5 +61,35 @@ body {
 
 .nav-link_menu:hover {
   color: #F07581;
+}
+
+.select-region_city {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #dc3545;
+}
+
+.select-region_text {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #212529;
+}
+
+.dottedUnderline {
+  border-bottom: 2px dotted;
+  border-bottom-color: currentcolor;
+  border-bottom-color: #dc3545;
+}
+
+.select-region_button {
+  width: 108px;
+  height: 29px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dc3545;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
