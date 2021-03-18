@@ -1,8 +1,46 @@
+@font-face {
+  font-display: swap;
+  font-family: "MullerNarrow-ExtraBold";
+  src: local("MullerNarrow-ExtraBold"), url("/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MyriadPro-Regular";
+  src: local("MyriadPro-Regular"), url("/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Regular.woff") format("woff"), url("/fonts/MyriadPro-Regular.ttf") format("truetype"), url("/fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MyriadPro-Bold_0";
+  src: local("MyriadPro-Bold_0"), url("/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Bold_0.woff") format("woff"), url("/fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("/fonts/MyriadPro-Bold_0.otf") format("opentype");
+}
+
+body {
+  font-family: MyriadPro-Regular;
+}
+
 .banner {
   background-image: url(/img/banner.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 45px;
+}
+
+.bann_text {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #343a40;
+}
+
+.bann_price {
+  font-family: MullerNarrow-ExtraBold;
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #dc3545;
 }
 
 .nav-link_menu {
