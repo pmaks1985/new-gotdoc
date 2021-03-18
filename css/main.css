@@ -92,4 +92,40 @@ body {
   border: 1px solid #dc3545;
   border-radius: 5px;
 }
+
+.site-name {
+  font-family: MyriadPro-Bold_0;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #212529;
+}
+
+.site-name_explanation {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #212529;
+}
+
+.phone {
+  font-family: MyriadPro-Regular;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #212529;
+  position: relative;
+}
+
+.phone:hover {
+  color: #7E8994;
+}
+
+.opening-hours {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #212529;
+}
 /*# sourceMappingURL=main.css.map */
