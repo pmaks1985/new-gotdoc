@@ -142,10 +142,9 @@ body {
 }
 
 .catalog_btn {
-    width: 266px;
-    height: 43px;
     background-color: #dc3545;
     border-radius: 5px;
+    padding-right: 56px;
 }
 
 .catalog_btn_link {
@@ -168,11 +167,11 @@ body {
 }
 
 .form-control_input {
-    width: 324px !important;
-    height: 43px;
     border: 2px solid #dc3545;
     border-right: none;
     border-radius: 5px 0px 0px 5px;
+    min-width: 324px;
+    padding: 20px 0 20px 24px;
 }
 
 .form-control_input::placeholder {
@@ -191,14 +190,13 @@ body {
 }
 
 .search_btn {
-    width: 56px;
-    height: 43px;
     background-color: #dc3545;
     border-radius: 0px 5px 5px 0px;
     background-image: url(/img/magnifier.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid #dc3545;
+    padding: 20px;
 }
 
 .backet {
