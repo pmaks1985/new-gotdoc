@@ -145,18 +145,12 @@ body {
     background-color: #dc3545;
     border-radius: 5px;
     padding-right: 56px;
-}
-
-.catalog_btn_link {
     font-family: MyriadPro-Bold_0;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 700;
     color: #ffffff;
-}
-
-.catalog_btn_link:hover {
-    color: #ffffff;
+    border: none;
 }
 
 .catalog_btn:hover,
@@ -164,6 +158,8 @@ body {
 .backet:hover {
     background-color: #EE6673;
     border-color: #EE6673;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .form-control_input {
@@ -210,4 +206,27 @@ body {
     line-height: 1.2;
     font-weight: 700;
     color: #ffffff;
+}
+
+.dropdown .dropdown-toggle::after {
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: #f9f5f1;
+    margin: 0;
+}
+
+.dropdown-item {
+    padding: 8px 14px;
+}
+
+.dropdown-item:hover {
+    background-color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dropdown-2_level:hover>.dropdown-menu {
+    display: block;
 }

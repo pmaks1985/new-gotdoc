@@ -75,12 +75,31 @@
             </div>
             <div class="d-flex justify-content-between mt-3">
                 <div class="d-flex">
-                    <a class="catalog_btn_link text-decoration-none" href="#">
-                        <div class="catalog_btn d-flex align-items-center">
+                    <div class="dropdown">
+                        <a class="catalog_btn d-flex align-items-center dropdown-toggle" href="#"
+                            id="navbarDropdownMenuLink" aria-haspopup="true" data-toggle="dropdown"
+                            aria-expanded="false">
                             <img class="p-3" src="/img/catalog.png" alt="catalog">
-                            <span>Каталог документов</span>
+                            <div>Каталог документов</div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="dropdown-item dropright">
+                                <a href="" class="submenu" id="navbarDropdownMenuLink-2_level" aria-haspopup="true"
+                                    data-toggle="dropdown" aria-expanded="false">Образовательные организации</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-2_level">
+                                    <div>text</div>
+                                    <div>text</div>
+                                    <div>text</div>
+                                </div>
+                            </div>
+                            <a class="dropdown-item">Объекты размещения</a>
+                            <a class="dropdown-item">Производственные предприятия</a>
+                            <a class="dropdown-item">Административные здания</a>
+                            <a class="dropdown-item">Торговые организации</a>
+                            <a class="dropdown-item">Офисные здания</a>
+                            <a class="dropdown-item">Спортивные организации</a>
                         </div>
-                    </a>
+                    </div>
                     <div>
                         <nav class="navbar py-0">
                             <form class="form-inline">
@@ -101,9 +120,19 @@
         </header>
     </div>
 
-
-
-
+    <script>
+        $('.dropdown-menu a.submenu').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+            }
+            var $subMenu = $(this).next('.dropdown-menu');
+            $subMenu.toggleClass('show');
+            $(this).parents('div.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass('show');
+            });
+            return false;
+        });
+    </script>
     <script src="/js/jquery-3.5.1.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
