@@ -149,8 +149,10 @@ body {
 }
 
 .catalog_btn:hover,
-.search_btn:hover {
+.search_btn:hover,
+.backet:hover {
   background-color: #EE6673;
+  border-color: #EE6673;
 }
 
 .form-control_input {
@@ -207,5 +209,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #dc3545;
+}
+
+.backet {
+  background-color: #dc3545;
+  border-radius: 5px;
+}
+
+.backet_text {
+  font-family: MyriadPro-Bold_0;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
