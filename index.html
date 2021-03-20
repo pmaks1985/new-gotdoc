@@ -82,23 +82,34 @@
                             <img class="p-3" src="/img/catalog.png" alt="catalog">
                             <div>Каталог документов</div>
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <div class="dropdown-item dropright">
-                                <a href="" class="submenu" id="navbarDropdownMenuLink-2_level" aria-haspopup="true"
-                                    data-toggle="dropdown" aria-expanded="false">Образовательные организации</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-2_level">
-                                    <div>text</div>
-                                    <div>text</div>
-                                    <div>text</div>
-                                </div>
-                            </div>
-                            <a class="dropdown-item">Объекты размещения</a>
-                            <a class="dropdown-item">Производственные предприятия</a>
-                            <a class="dropdown-item">Административные здания</a>
-                            <a class="dropdown-item">Торговые организации</a>
-                            <a class="dropdown-item">Офисные здания</a>
-                            <a class="dropdown-item">Спортивные организации</a>
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle d-flex" href="#">Образовательные<br>
+                                    организации</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Детский сад</a></li>
+                                    <ul class="">
+                                        <li><a class="dropdown-item" href="#">Пожарная безопасность</a></li>
+                                        <li><a class="dropdown-item" href="#">Первая помощь</a></li>
+                                    </ul>
+                                    <li><a class="dropdown-item" href="#">Детский лагерь</a></li>
+                                    <li><a class="dropdown-item" href="#">Школа</a></li>
+                                    <li><a class="dropdown-item" href="#">Техникум</a></li>
+                                    <li><a class="dropdown-item" href="#">Коледж</a></li>
+                                    <li><a class="dropdown-item" href="#">Лицей</a></li>
+                                    <li><a class="dropdown-item" href="#">Университет</a></li>
+                                    <li><a class="dropdown-item" href="#">Институт</a></li>
+                                    <li><a class="dropdown-item" href="#">Организация ДПО</a></li>
+                                    <li><a class="dropdown-item" href="#">Автошкола</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item">Объекты размещения</a></li>
+                            <li><a class="dropdown-item">Производственные<br> предприятия</a></li>
+                            <li><a class="dropdown-item">Административные здания</a></li>
+                            <li><a class="dropdown-item">Торговые организации</a></li>
+                            <li><a class="dropdown-item">Офисные здания</a></li>
+                            <li><a class="dropdown-item">Спортивные организации</a></li>
+                        </ul>
                     </div>
                     <div>
                         <nav class="navbar py-0">
@@ -120,22 +131,29 @@
         </header>
     </div>
 
+
+
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
     <script>
-        $('.dropdown-menu a.submenu').on('click', function (e) {
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
             if (!$(this).next().hasClass('show')) {
                 $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
             }
             var $subMenu = $(this).next('.dropdown-menu');
             $subMenu.toggleClass('show');
-            $(this).parents('div.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
                 $('.dropdown-submenu .show').removeClass('show');
             });
+
+
             return false;
         });
     </script>
-    <script src="/js/jquery-3.5.1.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
 
 </body>
 

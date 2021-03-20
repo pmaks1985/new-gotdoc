@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-display: swap;
   font-family: "MullerNarrow-ExtraBold";
@@ -225,10 +226,16 @@ body {
 .dropdown-menu {
   background-color: #f9f5f1;
   margin: 0;
+  width: 100%;
 }
 
 .dropdown-item {
   padding: 8px 14px;
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #343a40;
 }
 
 .dropdown-item:hover {
@@ -237,7 +244,20 @@ body {
   cursor: pointer;
 }
 
-.dropdown-2_level:hover > .dropdown-menu {
-  display: block;
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-toggle::after {
+  content: "❯";
+  margin-left: 5.5rem;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: -8px !important;
+  left: 100% !important;
+  margin-left: .1rem;
+  margin-right: .1rem;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
