@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-display: swap;
   font-family: "MullerNarrow-ExtraBold";
@@ -249,7 +248,7 @@ body {
 }
 
 .dropdown-submenu .dropdown-toggle::after {
-  content: "❯";
+  content: "\e99b";
   margin-left: 5.5rem;
 }
 
