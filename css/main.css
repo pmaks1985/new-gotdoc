@@ -291,4 +291,38 @@ body {
   color: #a8a8a8;
   text-decoration: none;
 }
+
+.filter {
+  background-color: #f9f5f1;
+  border-radius: 8px;
+}
+
+.filter-title {
+  font-family: MullerNarrow-ExtraBold;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.filter-list_li {
+  font-family: MyriadPro-Regular;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #343a40;
+  white-space: normal !important;
+}
+
+.filter-list > li {
+  list-style: none;
+}
+
+.dropright .dropdown-toggle::after {
+  content: ">";
+  margin-left: 0.5rem;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
