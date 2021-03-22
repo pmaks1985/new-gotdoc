@@ -79,7 +79,7 @@
                     <div class="dropdown">
                         <a class="catalog_btn d-flex align-items-center dropdown-toggle" href="#"
                             id="navbarDropdownMenuLink" aria-haspopup="true" data-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="true">
                             <img class="p-3" src="/img/catalog.png" alt="catalog">
                             <div>Каталог документов</div>
                         </a>
@@ -89,20 +89,33 @@
                                     href="#">Образовательные<br>
                                     организации</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Детский сад</a></li>
-                                    <ul class="">
-                                        <li><a class="dropdown-item" href="#">Пожарная безопасность</a></li>
-                                        <li><a class="dropdown-item" href="#">Первая помощь</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Детский сад</a>
+                                    </li>
+                                    <ul class="pl-3">
+                                        <li class="dropdown-submenu dropdown-item_li">
+                                            <a class="dropdown-item dropdown-toggle dropdown-toggle_2-level d-flex align-items-center"
+                                                href="#">Пожарная безопасность</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Готовые документы по ПБ</a></li>
+                                                <li><a class="dropdown-item" href="#">Декларация ПБ</a></li>
+                                                <li><a class="dropdown-item" href="#">Формы документов</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-item_li"><a class="dropdown-item" href="#">Первая помощь</a>
+                                        </li>
                                     </ul>
-                                    <li><a class="dropdown-item" href="#">Детский лагерь</a></li>
-                                    <li><a class="dropdown-item" href="#">Школа</a></li>
-                                    <li><a class="dropdown-item" href="#">Техникум</a></li>
-                                    <li><a class="dropdown-item" href="#">Коледж</a></li>
-                                    <li><a class="dropdown-item" href="#">Лицей</a></li>
-                                    <li><a class="dropdown-item" href="#">Университет</a></li>
-                                    <li><a class="dropdown-item" href="#">Институт</a></li>
-                                    <li><a class="dropdown-item" href="#">Организация ДПО</a></li>
-                                    <li><a class="dropdown-item" href="#">Автошкола</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Детский лагерь</a>
+                                    </li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Школа</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Техникум</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Коледж</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Лицей</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Университет</a>
+                                    </li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Институт</a></li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Организация ДПО</a>
+                                    </li>
+                                    <li><a class="dropdown-item font-weight-bold" href="#">Автошкола</a></li>
                                 </ul>
                             </li>
                             <li><a class="dropdown-item">Объекты размещения</a></li>
@@ -151,6 +164,18 @@
             });
             return false;
         });
+
+        // $('.dropdown-menu a.submenu').on('click', function (e) {
+        //     if (!$(this).next().hasClass('show')) {
+        //         $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+        //     }
+        //     var $subMenu = $(this).next('.dropdown-menu');
+        //     $subMenu.toggleClass('show');
+        //     $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+        //         $('.dropdown-submenu .show').removeClass('show');
+        //     });
+        //     return false;
+        // });
     </script>
 
 </body>
