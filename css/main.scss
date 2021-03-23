@@ -28,6 +28,8 @@
         url("/fonts/MyriadPro-Bold_0.otf") format("opentype");
 }
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
 body {
     font-family: MyriadPro-Regular;
     font-size: 16px;
@@ -216,15 +218,17 @@ body {
     background-color: #f9f5f1;
     margin: 0;
     width: 100%;
+    padding: 0.5rem;
 }
 
 .dropdown-item {
-    padding: 8px 14px;
+    padding: 8px;
     font-family: MyriadPro-Regular;
     font-size: 16px;
     line-height: 15px;
     font-weight: 400;
     color: #343a40;
+    padding: 0.5rem;
 }
 
 .dropdown-item:hover {
@@ -235,20 +239,6 @@ body {
 
 .dropdown-submenu {
     position: relative;
-}
-
-.dropdown-submenu .dropdown-toggle::after {
-    content: ">";
-    margin-left: 5.5rem;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.dropdown-submenu .dropdown-toggle_2-level::after {
-    content: ">";
-    margin-left: 2.5rem;
-    font-size: 13px;
-    font-weight: bold;
 }
 
 .dropdown-submenu .dropdown-menu {
@@ -309,9 +299,14 @@ body {
 }
 
 .dropright .dropdown-toggle::after {
-    content: ">";
-    margin-left: 0.5rem;
-    font-size: 13px;
-    font-weight: bold;
     border: none;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.bi-chevron-right {
+    font-size: 12px;
+    padding-left: 20px;
 }
