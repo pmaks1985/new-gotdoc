@@ -218,7 +218,7 @@ body {
     background-color: #f9f5f1;
     margin: 0;
     width: 100%;
-    padding: 0.5rem;
+    padding: 10px;
 }
 
 .dropdown-item {
@@ -323,4 +323,37 @@ body {
 
 .custom-control-input:focus~.custom-control-label::before {
     box-shadow: 0 0 0 .2rem #EBD8C6;
+}
+
+.title {
+    font-family: MullerNarrow-ExtraBold;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+}
+
+.card-img-top {
+    padding: 13px 25px;
+    max-height: 150px
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.all-category {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #dc3545;
 }
