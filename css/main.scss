@@ -231,7 +231,8 @@ body {
     padding: 0.5rem;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-item:focus {
     background-color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
@@ -274,6 +275,7 @@ body {
 .filter {
     background-color: #f9f5f1;
     border-radius: 8px;
+    padding: 0 15px;
 
 }
 
@@ -308,5 +310,17 @@ body {
 
 .bi-chevron-right {
     font-size: 12px;
-    padding-left: 20px;
+}
+
+.text-normal {
+    white-space: normal !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #D6C0A9;
+    background-color: #D6C0A9;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 .2rem #EBD8C6;
 }
