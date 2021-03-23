@@ -154,19 +154,34 @@
                                 id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Образовательные
                                 организации<i class="bi bi-chevron-right"></i></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
-                                <label for="" class="dropdown-item"><input type="checkbox" name="" id="">Детский
-                                    сад</label>
+                            <div class="dropdown-menu keep_open" aria-labelledby="dropdownMenuLink">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                                    <label class="custom-control-label" for="customCheck">Детский
+                                        сад</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Детский
+                                        сад</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">Детский
+                                        сад</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Детский
+                                        сад</label>
+                                </div>
+
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">Детский
+                                        сад</label>
+                                </div>
+
                             </div>
                         </li>
                         <li><a class="dropdown-item filter-list_li" href="#">Объекты размещения</a></li>
@@ -220,6 +235,19 @@
 
         $('.dropdown').on("hidden.bs.dropdown", function () {
             $('.dropdown-menu.show').removeClass('show');
+        });
+        // $(document).on(
+        //     'click.bs.dropdown.data-api',
+        //     '[data-toggle="dropdown"]', // тут прописываем селектор, который добавляем к тем .dropdown-menu, которые не должна закрываться по клику на внутренних элементах
+        //     function (e) {
+        //         e.stopPropagation()
+        //     }
+        // );
+
+        $(document).ready(function () {
+            $(document).on('click', '.dropdown-menu', function (e) {
+                $(this).hasClass('keep_open') && e.stopPropagation(); // This replace if conditional.
+            });
         });
     </script>
 
