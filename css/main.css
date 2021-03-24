@@ -88,8 +88,7 @@ body {
 }
 
 .select-region_button {
-  width: 108px;
-  height: 29px;
+  padding: 7px 33px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #dc3545;
   border-radius: 5px;
@@ -367,5 +366,105 @@ body {
   line-height: 17px;
   font-weight: 400;
   color: #dc3545;
+}
+
+.bi-arrow-right::before {
+  font-weight: 600 !important;
+}
+
+.sort {
+  margin-top: 34px;
+}
+
+.sort-title,
+.sort-link {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #989898;
+  padding-right: 30px;
+  margin-bottom: 0;
+}
+
+.sort-link:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+.product-list {
+  background-color: #f9f5f1;
+  border-radius: 8px;
+  padding: 24px 36px 11px 16px;
+  margin-top: 12px;
+}
+
+.product-list_img {
+  padding-right: 37px;
+}
+
+.product-list_text__title {
+  font-family: "MyriadPro-Bold_0";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #343a40;
+  margin-bottom: 14px;
+}
+
+.product-list_text__description {
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #989898;
+}
+
+.product-list_text {
+  padding-right: 47px;
+  padding-top: 20px;
+}
+
+.price {
+  padding-top: 10px;
+}
+
+.price-new {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #dc3545;
+  padding-right: 8px;
+}
+
+.price-old {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #343a40;
+  text-decoration: line-through;
+}
+
+.buy-button_link {
+  padding: 10px 40px;
+  background-color: #f9f5f1;
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+  font-family: "MyriadPro-Bold_0";
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #dc3545;
+}
+
+.buy-button_link:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.buy-button {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
