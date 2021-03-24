@@ -330,12 +330,17 @@ body {
     line-height: 37px;
     font-weight: 800;
     color: #343a40;
+    margin-bottom: 0;
 }
 
 .card {
     background-color: #ffffff;
     border: 2px solid #f5efe9;
     border-radius: 8px;
+}
+
+.card-body {
+    padding-top: 4px;
 }
 
 .card-img-top {
@@ -391,8 +396,12 @@ body {
     padding-right: 37px;
 }
 
+.product-list_img__src {
+    max-width: 119px;
+}
+
 .product-list_text__title {
-    font-family: "MyriadPro-Bold_0";
+    font-family: "MyriadPro-Regular";
     font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
@@ -410,7 +419,7 @@ body {
 
 .product-list_text {
     padding-right: 47px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .price {
@@ -454,5 +463,31 @@ body {
 }
 
 .buy-button {
+    padding-top: 30px;
+}
+
+.page-navigation {
+    padding-top: 13px;
+}
+
+.page-navidation_numbers {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #989898;
+    padding: 5px 10px;
+    margin-right: 7px;
+    text-decoration: none !important;
+}
+
+.page-navidation_numbers:hover {
+    background-color: #f9f5f1;
+    color: #989898;
+}
+
+.text {
     padding-top: 30px;
 }
