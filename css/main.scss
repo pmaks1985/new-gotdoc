@@ -1,0 +1,561 @@
+@font-face {
+    font-display: swap;
+    font-family: "MullerNarrow-ExtraBold";
+    src: local('MullerNarrow-ExtraBold'),
+        url("/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/MullerNarrow-ExtraBold.woff") format("woff"),
+        url("/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"),
+        url("/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "MyriadPro-Regular";
+    src: local('MyriadPro-Regular'),
+        url("/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/MyriadPro-Regular.woff") format("woff"),
+        url("/fonts/MyriadPro-Regular.ttf") format("truetype"),
+        url("/fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "MyriadPro-Bold_0";
+    src: local('MyriadPro-Bold_0'),
+        url("/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/MyriadPro-Bold_0.woff") format("woff"),
+        url("/fonts/MyriadPro-Bold_0.ttf") format("truetype"),
+        url("/fonts/MyriadPro-Bold_0.otf") format("opentype");
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+body {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.banner {
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45px;
+}
+
+.bann_head {
+    left: 33%;
+}
+
+.bann_text {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.bann_price {
+    font-family: MullerNarrow-ExtraBold;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #dc3545;
+}
+
+.nav-link_menu {
+    font-family: MyriadPro-Regular;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #dc3545;
+}
+
+.nav-link_menu:hover {
+    color: #F07581;
+}
+
+.select-region_city {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #dc3545;
+}
+
+.select-region_text {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #212529;
+}
+
+.dottedUnderline {
+    border-bottom: 2px dotted;
+    border-bottom-color: currentcolor;
+    border-bottom-color: #dc3545;
+}
+
+.select-region_button {
+    padding: 7px 33px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+}
+
+.site-name {
+    font-family: MyriadPro-Bold_0;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212529;
+}
+
+.site-name_explanation {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #212529;
+}
+
+.phone {
+    font-family: MyriadPro-Regular;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #212529;
+    position: relative;
+}
+
+.phone:hover {
+    color: #7E8994;
+}
+
+.opening-hours {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #212529;
+}
+
+.catalog_btn {
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding-right: 66px;
+    font-family: MyriadPro-Bold_0;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+}
+
+.catalog_btn:hover,
+.search_btn:hover,
+.backet:hover {
+    background-color: #EE6673;
+    border-color: #EE6673;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form-control_input {
+    border: 2px solid #dc3545;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    min-width: 324px;
+    padding: 20px 0 20px 24px;
+}
+
+.form-control_input::placeholder {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.form-control_input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dc3545;
+    outline: 0;
+    box-shadow: none;
+}
+
+.search_btn {
+    background-color: #dc3545;
+    border-radius: 0px 5px 5px 0px;
+    background-image: url(/img/magnifier.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #dc3545;
+    padding: 20px;
+}
+
+.backet {
+    background-color: #dc3545;
+    border-radius: 5px;
+}
+
+.backet_text {
+    font-family: MyriadPro-Bold_0;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.dropdown .dropdown-toggle::after {
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: #f9f5f1;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.dropdown-item {
+    padding: 8px;
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #343a40;
+    padding: 0.5rem;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: -0.55rem !important;
+    left: 100% !important;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    padding: 0;
+}
+
+.dropdown-item_li {
+    list-style: none;
+}
+
+.bread-crumps_link {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #a8a8a8;
+}
+
+.fa::after {
+    content: "·";
+    margin: 0 0.2rem;
+    color: #a8a8a8;
+}
+
+.bread-crumps_link:hover {
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+.filter {
+    background-color: #f9f5f1;
+    border-radius: 8px;
+    padding: 20px 15px;
+    max-width: 96%;
+}
+
+.filter-title {
+    font-family: MullerNarrow-ExtraBold;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.filter-list_li {
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #343a40;
+    white-space: normal !important;
+}
+
+.filter-list>li {
+    list-style: none;
+}
+
+.dropright .dropdown-toggle::after {
+    border: none;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.bi-chevron-right {
+    font-size: 12px;
+}
+
+.text-normal {
+    white-space: normal !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #D6C0A9;
+    background-color: #D6C0A9;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 .2rem #EBD8C6;
+}
+
+.title {
+    font-family: MullerNarrow-ExtraBold;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #343a40;
+    margin-bottom: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.card-img-top {
+    padding: 13px 25px 11px 25px;
+    max-height: 150px
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.all-category {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #dc3545;
+}
+
+.bi-arrow-right::before {
+    font-weight: 600 !important;
+}
+
+.sort {
+    margin-top: 34px;
+}
+
+.sort-title,
+.sort-link {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #989898;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.sort-link:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.product-list {
+    background-color: #f9f5f1;
+    border-radius: 8px;
+    padding: 24px 36px 11px 16px;
+    margin-top: 12px;
+}
+
+.product-list_img {
+    padding-right: 37px;
+}
+
+.product-list_img__src {
+    max-width: 119px;
+}
+
+.product-list_text__title {
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #343a40;
+    margin-bottom: 14px;
+}
+
+.product-list_text__description {
+    font-family: "MyriadPro-Regular";
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #989898;
+}
+
+.product-list_text {
+    padding-right: 47px;
+    padding-top: 10px;
+}
+
+.price {
+    padding-top: 10px;
+}
+
+.price-new {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #dc3545;
+    padding-right: 8px;
+}
+
+.price-old {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #343a40;
+    text-decoration: line-through;
+}
+
+.buy-button_link {
+    padding: 10px 40px;
+    background-color: #f9f5f1;
+    border: 2px solid #dc3545;
+    border-radius: 5px;
+    font-family: "MyriadPro-Bold_0";
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #dc3545;
+}
+
+.buy-button_link:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.buy-button {
+    padding-top: 30px;
+}
+
+.page-navigation {
+    padding-top: 13px;
+}
+
+.page-navidation_numbers {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #989898;
+    padding: 5px 10px;
+    margin-right: 7px;
+    text-decoration: none !important;
+}
+
+.page-navidation_numbers:hover {
+    background-color: #f9f5f1;
+    color: #989898;
+}
+
+.text {
+    padding-top: 30px;
+}
+
+.those-involted_title {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.those-involted_icons {
+    margin-top: 28px;
+}
+
+footer {
+    margin-top: 70px;
+    background-color: #eee5dc;
+}
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer-title,
+.footer-title:hover {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #343a40;
+}
+
+.footer-phone_link,
+.footer-phone_link:hover,
+.footer-nord-soft_title,
+.footer-nord-soft_title:hover {
+    color: #343a40;
+}
+
+.footer-phone>p,
+.footer-schedule>p {
+    margin-bottom: 0;
+}
+
+.footer-phone,
+.footer-schedule,
+.footer-nord-soft {
+    padding-top: 10px;
+}
+
+.footer-schedule,
+.footer-nord-soft {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.footer-phone {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.footer-nord-soft_title {
+    padding-bottom: 7px;
+    margin-bottom: 0;
+}
