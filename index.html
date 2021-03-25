@@ -593,54 +593,90 @@
                         <div class="those-involted_title">
                             В создании и актуализации документов участвуют
                         </div>
+                        <div class="those-involted_icons row">
+                            <div class="d-flex align-items-center col-lg-4">
+                                <div class="pr-3">
+                                    <img src="/img/helmet.png" alt="helmet">
+                                </div>
+                                <p class="mb-0">Специалисты с опытом работы в МЧС</p>
+                            </div>
+                            <div class="d-flex align-items-center col-lg-4">
+                                <div class="pr-3">
+                                    <img src="/img/glasses.png" alt="glasses">
+                                </div>
+                                <p class="mb-0">Эксперты портала PROPB.RU</p>
+                            </div>
+                            <div class="d-flex align-items-center col-lg-4">
+                                <div class="pr-3">
+                                    <img src="/img/computer.png" alt="computer">
+                                </div>
+                                <p class="mb-0">Разработчики ПО в области пожарной безопасности</p>
+                            </div>
+                        </div>
                     </div>
-
 
                 </div>
 
             </div>
 
-
-
         </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer d-flex justify-content-between">
+                <div><a class="footer-title text-decoration-none" href="/">Готовыедокументы.рф</a>
+                </div>
+                <div class="footer-phone">
+                    <p><a class="text-decoration-none footer-phone_link" href="tel:88005509590">8 (800) 550-95-90</a>
+                    </p>
+                    <p>Звонок по России бесплатный</p>
+                    <p><a href="mailto:info@doc-service.ru">info@doc-service.ru</a></p>
+                </div>
+                <div class="footer-schedule">
+                    <p>График работы:</p>
+                    <p>пн-пт: 6:00-21:00</p>
+                    <p>(время московское)</p>
+                </div>
+                <div class="footer-nord-soft">
+                    <a class="text-decoration-none" href="https://nordsoftware.ru/">
+                        <p class="footer-nord-soft_title">Создание сайта:</p>
+                        <img src="/img/nord-soft.png" alt="nord-soft">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
-        <script src="/js/jquery-3.5.1.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
-        <script>
-            $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
-                if (!$(this).next().hasClass('show')) {
-                    $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
-                }
-                var $subMenu = $(this).next('.dropdown-menu');
-                $subMenu.toggleClass('show');
-                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
-                    $('.dropdown-submenu .show').removeClass('show');
-                });
-                return false;
+    <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+            }
+            var $subMenu = $(this).next('.dropdown-menu');
+            $subMenu.toggleClass('show');
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass('show');
             });
+            return false;
+        });
 
-            $('.dropdown').on("hidden.bs.dropdown", function () {
-                $('.dropdown-menu.show').removeClass('show');
-            });
-            // $(document).on(
-            //     'click.bs.dropdown.data-api',
-            //     '[data-toggle="dropdown"]', // тут прописываем селектор, который добавляем к тем .dropdown-menu, которые не должна закрываться по клику на внутренних элементах
-            //     function (e) {
-            //         e.stopPropagation()
-            //     }
-            // );
+        $('.dropdown').on("hidden.bs.dropdown", function () {
+            $('.dropdown-menu.show').removeClass('show');
+        });
 
-            $(document).ready(function () {
-                $(document).on('click', '.dropdown-menu', function (e) {
-                    $(this).hasClass('keep_open') && e
-                        .stopPropagation(); // This replace if conditional.
-                });
+        $(document).ready(function () {
+            $(document).on('click', '.dropdown-menu', function (e) {
+                $(this).hasClass('keep_open') && e
+                    .stopPropagation();
             });
-        </script>
+        });
+    </script>
 
 </body>
 

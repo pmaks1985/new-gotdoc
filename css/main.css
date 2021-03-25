@@ -351,11 +351,11 @@ body {
 }
 
 .card-body {
-  padding-top: 4px;
+  padding-top: 0;
 }
 
 .card-img-top {
-  padding: 13px 25px;
+  padding: 13px 25px 11px 25px;
   max-height: 150px;
 }
 
@@ -501,5 +501,73 @@ body {
 
 .text {
   padding-top: 30px;
+}
+
+.those-involted_title {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 25px;
+  line-height: 37px;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.those-involted_icons {
+  margin-top: 28px;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #eee5dc;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-title,
+.footer-title:hover {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.footer-phone_link,
+.footer-phone_link:hover,
+.footer-nord-soft_title,
+.footer-nord-soft_title:hover {
+  color: #343a40;
+}
+
+.footer-phone > p,
+.footer-schedule > p {
+  margin-bottom: 0;
+}
+
+.footer-phone,
+.footer-schedule,
+.footer-nord-soft {
+  padding-top: 10px;
+}
+
+.footer-schedule,
+.footer-nord-soft {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #343a40;
+}
+
+.footer-phone {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #343a40;
+}
+
+.footer-nord-soft_title {
+  padding-bottom: 7px;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
