@@ -33,26 +33,6 @@ body {
   height: 45px;
 }
 
-.bann_head {
-  left: 33%;
-}
-
-.bann_text {
-  font-family: MyriadPro-Regular;
-  font-size: 16px;
-  line-height: 25px;
-  font-weight: 400;
-  color: #343a40;
-}
-
-.bann_price {
-  font-family: MullerNarrow-ExtraBold;
-  font-size: 23px;
-  line-height: 1.2;
-  font-weight: 800;
-  color: #dc3545;
-}
-
 .nav-link_menu {
   font-family: MyriadPro-Regular;
   font-size: 14px;
@@ -505,6 +485,10 @@ ul.dropdown-menu {
   padding-top: 30px;
 }
 
+.those-involved {
+  margin-bottom: 70px;
+}
+
 .those-involted_title {
   font-family: "MullerNarrow-ExtraBold";
   font-size: 25px;
@@ -518,7 +502,6 @@ ul.dropdown-menu {
 }
 
 footer {
-  margin-top: 70px;
   background-color: #eee5dc;
 }
 

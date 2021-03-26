@@ -13,11 +13,7 @@
 <body>
     <div class="container">
         <header>
-            <div class="align-items-center banner d-flex position-relative">
-                <div class="align-items-baseline bg-white d-flex position-absolute px-2 rounded bann_head">
-                    <div class="bann_text">Новинка! Готовая декларация пожарной безопасности</div>
-                    <div class="bann_price ml-2">4999 руб.</div>
-                </div>
+            <div class="align-items-center banner">
             </div>
             <div class="d-flex justify-content-between">
                 <div>
@@ -69,10 +65,7 @@
                     <img class="mr-1" src="/new-gotdoc/img/phone.png" alt="phone"><a class="phone text-decoration-none" href="tel:+78005504908">8 (800) 550-49-08</a>
                     <div class="opening-hours">пн-вс: 06:00 - 21:00</div>
                 </div>
-
             </div>
-        </header>
-        <div class="content">
             <div class="d-flex justify-content-between mt-3">
                 <div class="d-flex">
                     <div class="dropdown">
@@ -178,6 +171,8 @@
                     <span class="backet_text">Корзина пуста</span>
                 </div>
             </div>
+        </header>
+        <div class="content">
             <div class="bread-crumbs my-3">
                 <a class="bread-crumps_link" href="#">Главная</a><i class="fa"></i>
                 <a class="bread-crumps_link" href="#">Каталог товаров</a>
@@ -584,7 +579,6 @@
                 </div>
 
             </div>
-
         </div>
     </div>
     <footer>
