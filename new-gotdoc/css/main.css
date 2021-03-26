@@ -3,19 +3,19 @@
 @font-face {
   font-display: swap;
   font-family: "MullerNarrow-ExtraBold";
-  src: local("MullerNarrow-ExtraBold"), url("/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+  src: local("MullerNarrow-ExtraBold"), url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
   font-display: swap;
   font-family: "MyriadPro-Regular";
-  src: local("MyriadPro-Regular"), url("/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Regular.woff") format("woff"), url("/fonts/MyriadPro-Regular.ttf") format("truetype"), url("/fonts/MyriadPro-Regular.otf") format("opentype");
+  src: local("MyriadPro-Regular"), url("/new-gotdoc/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("/new-gotdoc/fonts/MyriadPro-Regular.woff") format("woff"), url("/new-gotdoc/fonts/MyriadPro-Regular.ttf") format("truetype"), url("/new-gotdoc/fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-display: swap;
   font-family: "MyriadPro-Bold_0";
-  src: local("MyriadPro-Bold_0"), url("/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("/fonts/MyriadPro-Bold_0.woff") format("woff"), url("/fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("/fonts/MyriadPro-Bold_0.otf") format("opentype");
+  src: local("MyriadPro-Bold_0"), url("/new-gotdoc/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("/new-gotdoc/fonts/MyriadPro-Bold_0.woff") format("woff"), url("/new-gotdoc/fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("/new-gotdoc/fonts/MyriadPro-Bold_0.otf") format("opentype");
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 .banner {
-  background-image: url(/img/banner.png);
+  background-image: url(/new-gotdoc/img/banner.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 45px;
@@ -199,7 +199,7 @@ body {
 .search_btn {
   background-color: #dc3545;
   border-radius: 0px 5px 5px 0px;
-  background-image: url(/img/magnifier.png);
+  background-image: url(/new-gotdoc/img/magnifier.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid #dc3545;

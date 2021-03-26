@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/new-gotdoc/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/new-gotdoc/css/main.css">
 </head>
 
 <body>
@@ -66,7 +66,7 @@
                     <div class="site-name_explanation">Автоматизированный помощник для подготовки к проектам</div>
                 </div>
                 <div class="text-right">
-                    <img class="mr-1" src="/img/phone.png" alt="phone"><a class="phone text-decoration-none"
+                    <img class="mr-1" src="/new-gotdoc/img/phone.png" alt="phone"><a class="phone text-decoration-none"
                         href="tel:+78005504908">8 (800) 550-49-08</a>
                     <div class="opening-hours">пн-вс: 06:00 - 21:00</div>
                 </div>
@@ -80,7 +80,7 @@
                         <a class="catalog_btn d-flex align-items-center dropdown-toggle" href="#"
                             id="navbarDropdownMenuLink" aria-haspopup="true" data-toggle="dropdown"
                             aria-expanded="true">
-                            <img class="p-3" src="/img/catalog.png" alt="catalog">
+                            <img class="p-3" src="/new-gotdoc/img/catalog.png" alt="catalog">
                             <div>Каталог документов</div>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="btn backet d-flex align-items-center">
-                    <img class="pr-3" src="/img/backet.png" alt="backet">
+                    <img class="pr-3" src="/new-gotdoc/img/backet.png" alt="backet">
                     <span class="backet_text">Корзина пуста</span>
                 </div>
             </div>
@@ -436,7 +436,7 @@
                     <div class="d-flex align-items-center pt-3">
                         <a href="#" class="text-decoration-none">
                             <div class="card mr-3">
-                                <img class="card-img-top" src="/img/books.png" alt="books">
+                                <img class="card-img-top" src="/new-gotdoc/img/books.png" alt="books">
                                 <div class="card-body">
                                     <p class="card-text">Готовые комплекты</p>
                                 </div>
@@ -444,7 +444,7 @@
                         </a>
                         <a href="#" class="text-decoration-none">
                             <div class="card mr-3">
-                                <img class="card-img-top" src="/img/docs.png" alt="docs">
+                                <img class="card-img-top" src="/new-gotdoc/img/docs.png" alt="docs">
                                 <div class="card-body">
                                     <p class="card-text">Типовые шаблоны</p>
                                 </div>
@@ -465,7 +465,7 @@
                     </div>
                     <div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
@@ -483,7 +483,7 @@
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
@@ -502,7 +502,7 @@
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
@@ -520,7 +520,7 @@
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
@@ -539,7 +539,7 @@
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
@@ -557,7 +557,7 @@
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/img/docs.png" alt="docs"
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
                                     class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
@@ -596,19 +596,19 @@
                         <div class="those-involted_icons row">
                             <div class="d-flex align-items-center col-lg-4">
                                 <div class="pr-3">
-                                    <img src="/img/helmet.png" alt="helmet">
+                                    <img src="/new-gotdoc/img/helmet.png" alt="helmet">
                                 </div>
                                 <p class="mb-0">Специалисты с опытом работы в МЧС</p>
                             </div>
                             <div class="d-flex align-items-center col-lg-4">
                                 <div class="pr-3">
-                                    <img src="/img/glasses.png" alt="glasses">
+                                    <img src="/new-gotdoc/img/glasses.png" alt="glasses">
                                 </div>
                                 <p class="mb-0">Эксперты портала PROPB.RU</p>
                             </div>
                             <div class="d-flex align-items-center col-lg-4">
                                 <div class="pr-3">
-                                    <img src="/img/computer.png" alt="computer">
+                                    <img src="/new-gotdoc/img/computer.png" alt="computer">
                                 </div>
                                 <p class="mb-0">Разработчики ПО в области пожарной безопасности</p>
                             </div>
@@ -640,7 +640,7 @@
                 <div class="footer-nord-soft">
                     <a class="text-decoration-none" href="https://nordsoftware.ru/">
                         <p class="footer-nord-soft_title">Создание сайта:</p>
-                        <img src="/img/nord-soft.png" alt="nord-soft">
+                        <img src="/new-gotdoc/img/nord-soft.png" alt="nord-soft">
                     </a>
                 </div>
             </div>
@@ -649,9 +649,9 @@
 
 
 
-    <script src="/js/jquery-3.5.1.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/new-gotdoc/js/jquery-3.5.1.min.js"></script>
+    <script src="/new-gotdoc/js/popper.min.js"></script>
+    <script src="/new-gotdoc/js/bootstrap.min.js"></script>
 
     <script>
         $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
