@@ -66,8 +66,7 @@
                     <div class="site-name_explanation">Автоматизированный помощник для подготовки к проектам</div>
                 </div>
                 <div class="text-right">
-                    <img class="mr-1" src="/new-gotdoc/img/phone.png" alt="phone"><a class="phone text-decoration-none"
-                        href="tel:+78005504908">8 (800) 550-49-08</a>
+                    <img class="mr-1" src="/new-gotdoc/img/phone.png" alt="phone"><a class="phone text-decoration-none" href="tel:+78005504908">8 (800) 550-49-08</a>
                     <div class="opening-hours">пн-вс: 06:00 - 21:00</div>
                 </div>
 
@@ -77,26 +76,21 @@
             <div class="d-flex justify-content-between mt-3">
                 <div class="d-flex">
                     <div class="dropdown">
-                        <a class="catalog_btn d-flex align-items-center dropdown-toggle" href="#"
-                            id="navbarDropdownMenuLink" aria-haspopup="true" data-toggle="dropdown"
-                            aria-expanded="true">
+                        <a class="catalog_btn d-flex align-items-center dropdown-toggle" href="#" id="navbarDropdownMenuLink" aria-haspopup="true" data-toggle="dropdown" aria-expanded="true">
                             <img class="p-3" src="/new-gotdoc/img/catalog.png" alt="catalog">
                             <div>Каталог документов</div>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li class="dropdown-submenu">
-                                <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between"
-                                    href="#">
-                                    <div class="text-normal">Образовательные организации</div><i
-                                        class="bi bi-chevron-right"></i>
+                                <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between" href="#">
+                                    <div class="text-normal">Образовательные организации</div><i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item font-weight-bold" href="#">Детский сад</a>
                                     </li>
                                     <ul class="pl-3">
                                         <li class="dropdown-submenu dropdown-item_li">
-                                            <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between"
-                                                href="#">Пожарная безопасность<i class="bi bi-chevron-right"></i></a>
+                                            <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between" href="#">Пожарная безопасность<i class="bi bi-chevron-right"></i></a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="#">Готовые документы по ПБ</a></li>
                                                 <li><a class="dropdown-item" href="#">Декларация ПБ</a></li>
@@ -136,19 +130,15 @@
                             <li class="dropdown-submenu"><a class="dropdown-item">
                                     <div class="text-normal">Офисные здания</div>
                                 </a></li>
-                            <li class="dropdown-submenu"><a
-                                    class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between"
-                                    href="#">
-                                    <div class="text-normal">Спортивные организации</div><i
-                                        class="bi bi-chevron-right"></i>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between" href="#">
+                                    <div class="text-normal">Спортивные организации</div><i class="bi bi-chevron-right"></i>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item font-weight-bold" href="#">Детский сад</a>
                                     </li>
                                     <ul class="pl-3">
                                         <li class="dropdown-submenu dropdown-item_li">
-                                            <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between"
-                                                href="#">Пожарная безопасность<i class="bi bi-chevron-right"></i></a>
+                                            <a class="dropdown-item dropdown-toggle d-flex align-items-center justify-content-between" href="#">Пожарная безопасность<i class="bi bi-chevron-right"></i></a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="#">Готовые документы по ПБ</a></li>
                                                 <li><a class="dropdown-item" href="#">Декларация ПБ</a></li>
@@ -177,8 +167,7 @@
                     <div>
                         <nav class="navbar py-0">
                             <form class="form-inline">
-                                <input class="form-control form-control_input" type="search"
-                                    placeholder="Введите название документа" aria-label="Введите название документа">
+                                <input class="form-control form-control_input" type="search" placeholder="Введите название документа" aria-label="Введите название документа">
                                 <button class="search_btn" type="submit"></button>
                             </form>
                         </nav>
@@ -199,9 +188,7 @@
                         <span class="filter-title pl-2">Объект</span>
                         <ul class="filter-list pl-0">
                             <li class="dropright">
-                                <a class="dropdown-toggle dropdown-item d-flex align-items-center" href="#"
-                                    role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a class="dropdown-toggle dropdown-item d-flex align-items-center" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <div class="text-normal">Образовательные
                                         организации</div><i class="bi bi-chevron-right"></i>
                                 </a>
@@ -305,9 +292,7 @@
                                     <div class="text-normal">Объекты хранения</div>
                                 </a></li>
                             <li class="dropright">
-                                <a class="dropdown-toggle dropdown-item d-flex align-items-center" href="#"
-                                    role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a class="dropdown-toggle dropdown-item d-flex align-items-center" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <div class="text-normal">Сельскохозяйственные
                                         организации</div><i class="bi bi-chevron-right"></i>
                                 </a>
@@ -425,8 +410,7 @@
                             <a href="#" class="btn-outline-danger select-region_button text-decoration-none">Фильтр</a>
                         </div>
                         <div>
-                            <a href="#"
-                                class="btn-outline-danger select-region_button text-decoration-none">Сбросить</a>
+                            <a href="#" class="btn-outline-danger select-region_button text-decoration-none">Сбросить</a>
                         </div>
                     </div>
                 </div>
@@ -450,12 +434,6 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="text-decoration-none">
-                            <div class="all-category">
-                                <span>Все категории</span>
-                                <i class="bi bi-arrow-right"></i>
-                            </div>
-                        </a>
                     </div>
                     <div class="sort d-flex">
                         <p class="sort-title">Сортировать:</p>
@@ -465,8 +443,7 @@
                     </div>
                     <div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
                                 <p class="product-list_text__description">Соответствует Постановлению Правительства РФ
@@ -474,17 +451,15 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
                                     детского сада</p>
@@ -493,17 +468,15 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
                                 <p class="product-list_text__description">Соответствует Постановлению Правительства РФ
@@ -511,17 +484,15 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
                                     детского сада</p>
@@ -530,17 +501,15 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по ПБ для детского сада</p>
                                 <p class="product-list_text__description">Соответствует Постановлению Правительства РФ
@@ -548,17 +517,15 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
                         <div class="product-list d-flex">
-                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs"
-                                    class="product-list_img__src"></div>
+                            <div class="product-list_img"><img src="/new-gotdoc/img/docs.png" alt="docs" class="product-list_img__src"></div>
                             <div class="product-list_text">
                                 <p class="product-list_text__title">Комплект документов по Пожарной Безопасности для
                                     детского сада</p>
@@ -567,11 +534,10 @@
                                     16.09.2020 №1479 «Об
                                     утверждении правил противопожарного режима в Российской Федерации»</p>
                             </div>
-                            <div class="price">
-                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб</span>
+                            <div class="price w-50">
+                                <span class="price-new">2499 руб.</span><span class="price-old">3500 руб.</span>
                                 <div class="buy-button">
-                                    <a href="#"
-                                        class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
+                                    <a href="#" class="btn-outline-danger text-decoration-none buy-button_link">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -624,13 +590,13 @@
     <footer>
         <div class="container">
             <div class="footer d-flex justify-content-between">
-                <div><a class="footer-title text-decoration-none" href="/">Готовыедокументы.рф</a>
+                <div><a class="footer-title text-decoration-none" href="/">Готовыедокументы. РФ</a>
                 </div>
                 <div class="footer-phone">
                     <p><a class="text-decoration-none footer-phone_link" href="tel:88005509590">8 (800) 550-95-90</a>
                     </p>
                     <p>Звонок по России бесплатный</p>
-                    <p><a href="mailto:info@doc-service.ru">info@doc-service.ru</a></p>
+                    <p><a href="mailto:info@gotdoc.ru">info@gotdoc.ru</a></p>
                 </div>
                 <div class="footer-schedule">
                     <p>График работы:</p>
@@ -654,27 +620,28 @@
     <script src="/new-gotdoc/js/bootstrap.min.js"></script>
 
     <script>
-        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
-            if (!$(this).next().hasClass('show')) {
-                $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
-            }
-            var $subMenu = $(this).next('.dropdown-menu');
-            $subMenu.toggleClass('show');
-            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
-                $('.dropdown-submenu .show').removeClass('show');
+        $(document).ready(function() {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+                }
+                var $subMenu = $(this).next('.dropdown-menu');
+                $subMenu.toggleClass('show');
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+                    $('.dropdown-submenu .show').removeClass('show');
+                });
+                return false;
             });
-            return false;
-        });
 
-        $('.dropdown').on("hidden.bs.dropdown", function () {
-            $('.dropdown-menu.show').removeClass('show');
-        });
+            $('.dropdown').on("hidden.bs.dropdown", function() {
+                $('.dropdown-menu.show').removeClass('show');
+            });
 
-        $(document).ready(function () {
-            $(document).on('click', '.dropdown-menu', function (e) {
+            $(document).on('click', '.dropdown-menu', function(e) {
                 $(this).hasClass('keep_open') && e
                     .stopPropagation();
             });
+
         });
     </script>
 

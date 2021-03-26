@@ -230,6 +230,10 @@ body {
   padding: 10px;
 }
 
+ul.dropdown-menu {
+  background-color: #ffffff;
+}
+
 .dropdown-item {
   padding: 8px;
   font-family: MyriadPro-Regular;
@@ -249,6 +253,11 @@ body {
 
 .dropdown-submenu {
   position: relative;
+}
+
+.show > li > a.dropdown-item:hover,
+.dropdown-item_li > a.dropdown-item:hover {
+  background-color: #f9f5f1;
 }
 
 .dropdown-submenu .dropdown-menu {
@@ -325,6 +334,10 @@ body {
   white-space: normal !important;
 }
 
+.custom-control {
+  padding-top: 10px;
+}
+
 .custom-control-input:checked ~ .custom-control-label::before {
   border-color: #D6C0A9;
   background-color: #D6C0A9;
@@ -364,17 +377,6 @@ body {
   line-height: 17px;
   font-weight: 400;
   color: #343a40;
-}
-
-.all-category {
-  font-size: 16px;
-  line-height: 17px;
-  font-weight: 400;
-  color: #dc3545;
-}
-
-.bi-arrow-right::before {
-  font-weight: 600 !important;
 }
 
 .sort {
@@ -429,7 +431,7 @@ body {
 }
 
 .product-list_text {
-  padding-right: 47px;
+  padding-right: 37px;
   padding-top: 10px;
 }
 
