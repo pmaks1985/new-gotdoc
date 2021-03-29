@@ -136,7 +136,8 @@ body {
 
 .catalog_btn:hover,
 .search_btn:hover,
-.backet:hover {
+.backet:hover,
+.goods_buy-button:hover {
     background-color: #EE6673;
     border-color: #EE6673;
     text-decoration: none;
@@ -407,7 +408,7 @@ ul.dropdown-menu {
 }
 
 .price {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .price-new {
@@ -545,4 +546,38 @@ footer {
 .footer-nord-soft_title {
     padding-bottom: 7px;
     margin-bottom: 0;
+}
+
+/* Карточка товара */
+
+.goods {
+    background-color: #ffffff;
+    border: 2px solid #f5efe9;
+    border-radius: 8px;
+}
+
+.goods-img {
+    padding: 55px 70px 35px 55px;
+}
+
+.goods_price-new {
+    font-family: "MullerNarrow-ExtraBold";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #dc3545;
+    padding-right: 8px;
+}
+
+.goods_buy-button {
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding: 17px 45px;
+    margin-top: 7px;
 }
