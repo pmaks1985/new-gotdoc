@@ -393,12 +393,65 @@
                     <div class="col-lg-12 px-0">
                         <div class="collapse multi-collapse" id="description5" data-parent="#description">
                             <div class="question d-flex">
-                                <div class="review-img1">
-                                    <div class="review-img_url"></div>
+                                <div class="review-img rounded-circle">
+                                    <div class="review-img_url"
+                                        style="background-image: url(/new-gotdoc/img/books.png);"></div>
                                 </div>
-                                <img class="review-img" src="/new-gotdoc/img/fabras.png" alt="docs">
                                 <div>
                                     <b class="question-title">ООО "Весло37"</b>
+                                    <div class="question-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                                        Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question d-flex">
+                                <div class="review-img rounded-circle">
+                                    <div class="review-img_url"
+                                        style="background-image: url(/new-gotdoc/img/docs.png);"></div>
+                                </div>
+                                <div>
+                                    <b class="question-title">ИП Чернова Н.В.</b>
+                                    <div class="question-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                                        Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question d-flex">
+                                <div class="review-img rounded-circle">
+                                    <div class="review-img_url"
+                                        style="background-image: url(/new-gotdoc/img/fabras.png);"></div>
+                                </div>
+                                <div>
+                                    <b class="question-title">ООО "Фабрас"</b>
+                                    <div class="question-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                                        Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                                        laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+                                        Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                                        parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                                        vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="question d-flex">
+                                <div class="review-img rounded-circle">
+                                    <div class="review-img_url"
+                                        style="background-image: url(/new-gotdoc/img/books.png);"></div>
+                                </div>
+                                <div>
+                                    <b class="question-title">ООО "Центр ПБ"</b>
                                     <div class="question-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
                                         laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
@@ -412,7 +465,7 @@
                     </div>
                 </div>
             </div>
-            <div class="questions d-flex justify-content-between align-items-center mt-3">
+            <div class="questions d-flex justify-content-between align-items-center">
                 <div class="questions-text">Появились вопросы?</div>
                 <div><span class="questions-text mr-3">8 (800) 550-49-08</span><span>Бесплатно по РФ</span></div>
                 <div><a href="#" class="btn text-decoration-none goods_buy-button questions-button">Написать

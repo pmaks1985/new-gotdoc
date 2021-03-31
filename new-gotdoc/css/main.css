@@ -678,29 +678,27 @@ b {
 }
 
 .review-img {
-  max-width: 78px;
-  max-height: 78px;
-  border-radius: 50%;
-  border: 2px solid #f5efe9;
-  margin-right: 20px;
-  margin-top: 40px;
-}
-
-.review-img1 {
   background-color: #fefefe;
   border: 2px solid #f5efe9;
+  height: 80px;
+  margin-top: 40px;
+  margin-right: 20px;
 }
 
 .review-img_url {
-  background: url(/new-gotdoc/img/fabras.png) no-repeat center;
-  width: 100%;
   border-radius: 50%;
+  min-width: 80px;
+  min-height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .questions {
   background-color: #f9f5f1;
   border-radius: 8px;
   padding: 20px 24px 20px 44px;
+  margin-top: 55px;
 }
 
 .questions-text {
