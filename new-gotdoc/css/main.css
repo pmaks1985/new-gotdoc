@@ -696,4 +696,63 @@ b {
   width: 100%;
   border-radius: 50%;
 }
+
+.questions {
+  background-color: #f9f5f1;
+  border-radius: 8px;
+  padding: 20px 24px 20px 44px;
+}
+
+.questions-text {
+  font-family: "MullerNarrow-ExtraBold";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #343a40;
+}
+
+.questions-button {
+  padding: 15px 25px;
+}
+
+.interest {
+  margin-top: 76px;
+  margin-bottom: 28px;
+}
+
+.card-interest {
+  background-color: #f9f5f1;
+  border-radius: 8px;
+}
+
+.card-interest_img {
+  max-width: 120px;
+  padding-top: 22px;
+  padding-bottom: 7px;
+}
+
+.card-interest_text {
+  min-height: 110px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #343a40;
+  padding: 0 10px;
+}
+
+.card-interest_price {
+  padding: 20px 0;
+}
+
+.card-interest_button {
+  padding-bottom: 35px;
+}
+
+.card-interest_button__link {
+  padding: 12px 70px;
+}
+
+.those-involved-goods {
+  margin-top: 70px;
+}
 /*# sourceMappingURL=main.css.map */
