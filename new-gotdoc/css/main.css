@@ -663,5 +663,17 @@ b {
 
 .embed-responsive {
   border-radius: 8px;
+  border: 2px solid white;
+}
+
+.question {
+  margin-top: 40px;
+}
+
+.question-text {
+  padding: 30px;
+  border: 2px solid #f5efe9;
+  border-radius: 8px;
+  margin-top: 13px;
 }
 /*# sourceMappingURL=main.css.map */
