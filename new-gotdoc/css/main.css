@@ -676,4 +676,24 @@ b {
   border-radius: 8px;
   margin-top: 13px;
 }
+
+.review-img {
+  max-width: 78px;
+  max-height: 78px;
+  border-radius: 50%;
+  border: 2px solid #f5efe9;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.review-img1 {
+  background-color: #fefefe;
+  border: 2px solid #f5efe9;
+}
+
+.review-img_url {
+  background: url(/new-gotdoc/img/fabras.png) no-repeat center;
+  width: 100%;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
