@@ -2,30 +2,30 @@
     font-display: swap;
     font-family: "MullerNarrow-ExtraBold";
     src: local('MullerNarrow-ExtraBold'),
-        url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"),
-        url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.woff") format("woff"),
-        url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.ttf") format("truetype"),
-        url("/new-gotdoc/fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+        url("fonts/MullerNarrow-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("fonts/MullerNarrow-ExtraBold.woff") format("woff"),
+        url("fonts/MullerNarrow-ExtraBold.ttf") format("truetype"),
+        url("fonts/MullerNarrow-ExtraBold.otf") format("opentype");
 }
 
 @font-face {
     font-display: swap;
     font-family: "MyriadPro-Regular";
     src: local('MyriadPro-Regular'),
-        url("/new-gotdoc/fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
-        url("/new-gotdoc/fonts/MyriadPro-Regular.woff") format("woff"),
-        url("/new-gotdoc/fonts/MyriadPro-Regular.ttf") format("truetype"),
-        url("/new-gotdoc/fonts/MyriadPro-Regular.otf") format("opentype");
+        url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/MyriadPro-Regular.woff") format("woff"),
+        url("fonts/MyriadPro-Regular.ttf") format("truetype"),
+        url("fonts/MyriadPro-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-display: swap;
     font-family: "MyriadPro-Bold_0";
     src: local('MyriadPro-Bold_0'),
-        url("/new-gotdoc/fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"),
-        url("/new-gotdoc/fonts/MyriadPro-Bold_0.woff") format("woff"),
-        url("/new-gotdoc/fonts/MyriadPro-Bold_0.ttf") format("truetype"),
-        url("/new-gotdoc/fonts/MyriadPro-Bold_0.otf") format("opentype");
+        url("fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"),
+        url("fonts/MyriadPro-Bold_0.woff") format("woff"),
+        url("fonts/MyriadPro-Bold_0.ttf") format("truetype"),
+        url("fonts/MyriadPro-Bold_0.otf") format("opentype");
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
