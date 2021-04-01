@@ -613,7 +613,8 @@ footer {
     margin-right: 8px;
 }
 
-.goods-description_btn:focus {
+.goods-description_btn:focus,
+.goods-description_btn:hover {
     box-shadow: none;
     background-color: #f9f5f1;
 }
