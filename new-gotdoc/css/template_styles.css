@@ -318,6 +318,7 @@ ul.dropdown-menu {
 .card-text {
   font-size: 16px;
   line-height: 17px;
+  color: #343a40;
 }
 
 .sort {
@@ -671,4 +672,4 @@ b {
 .those-involved-goods {
   margin-top: 70px;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=template_styles.css.map */
