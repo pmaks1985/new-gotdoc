@@ -584,7 +584,7 @@
     <footer>
         <div class="container">
             <div class="footer d-flex justify-content-between">
-                <div><a class="footer-title text-decoration-none" href="/">Готовыедокументы. РФ</a>
+                <div><a class="footer-title text-decoration-none" href="/">Готовые документы. РФ</a>
                 </div>
                 <div class="footer-phone">
                     <p><a class="text-decoration-none footer-phone_link" href="tel:88005509590">8 (800) 550-95-90</a>
