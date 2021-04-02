@@ -313,6 +313,7 @@ ul.dropdown-menu {
 .card-img-top {
   padding: 13px 25px 11px 25px;
   max-height: 150px;
+  width: auto;
 }
 
 .card-text {
