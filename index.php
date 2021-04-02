@@ -47,7 +47,7 @@
                         <div class="mr-3">
                             <span class="select-region_text">Ваш регион:</span>
                             <span class="select-region_city">
-                                <span class="dottedUnderline">Москва</span>⏷
+                                <span class="dottedUnderline">Москва</span><i class="bi bi-caret-down-fill"></i>
                             </span>
                         </div>
                         <div>
